@@ -4,71 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/x-icon" href="./img/favicon.png">
 
-<!-- <style>
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Cinco columnas iguales */
-  padding: 1em;
-}
-.grid-item {
-  padding: 15px;
-  text-align: center;
-  transition: transform 0.3s; /* Animación de transformación */
-}
-.button-img {
-  width: 100%;
-  height: auto;
-  border: 4px solid #ccc; /* Borde más grueso */
-  border-radius: 10px; /* Esquinas redondeadas */
-  box-shadow: 4px 4px 8px rgba(0,0,0,0.2); /* Sombra agregada */
-}
-.grid-item:hover {
-  transform: scale(1.1); /* Efecto lupa al pasar el mouse */
-}
-@media only screen and (max-width: 600px) {
-  .grid-container {
-    grid-template-columns: 1fr; /* Una sola columna para tamaños de pantalla mínimos */
-  }
-}
-</style> -->
-
-<!-- <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Crea tantas columnas como sea posible */
-      padding: 10px;
-      gap: 10px; /* Espacio entre los botones */
-    }
-    .grid-item {
-      background-color: #f0f0f0; /* Color de fondo para los botones */
-      padding: 10px;
-      text-align: center;
-      height: 80px; /* Altura fija para mantener la proporción */
-      border: 4px solid #ccc; /* Borde más grueso */
-      border-radius: 10px; /* Esquinas redondeadas */
-      box-shadow: 4px 4px 8px rgba(0,0,0,0.2); /* Sombra agregada */
-      overflow: hidden; /* Oculta cualquier contenido que exceda el tamaño del contenedor */
-      position: relative; /* Posicionamiento relativo para el centrado de la imagen */
-      transition: transform 0.3s; /* Animación de transformación */
-    }
-    .grid-item:hover {
-      transform: scale(1.05); /* Efecto lupa al pasar el mouse */
-    }
-    .button-img {
-     /*  max-width: 100%; Máximo ancho de la imagen */
-     /* max-height: 100%;  Máximo altura de la imagen */
-      position: absolute; /* Posicionamiento absoluto */
-      top: 50%; /* Centrado vertical */
-      left: 50%; /* Centrado horizontal */
-      transform: translate(-50%, -50%); /* Ajuste fino del centrado */
-    }
-    
-    @media only screen and (max-width: 600px) {
-      .grid-container {
-        grid-template-columns: 1fr; /* Una sola columna para tamaños de pantalla mínimos */
-      }
-    }
-    </style> -->
 
     <style>
         .grid-container {
@@ -164,68 +99,6 @@
         }
         </style>
 
-
-        <!-- <style>
-            /* Estilos base para .grid-container y .grid-item aquí... */
-          
-            /* Estilo para pantallas mayores a 320px (podría ser el diseño por defecto) */
-            @media only screen and (min-width: 321px) {
-              .grid-container {
-                grid-template-columns: repeat(5, 1fr); /* Ajusta al número de columnas que desees */
-              }
-              .grid-item {
-                padding: 20px;
-                text-align: center;
-                border: 4px solid transparent; /* Establece un ancho y estilo de borde inicial. */
-                border-radius: 10px; /* Esquinas redondeadas */
-                transition: transform 0.3s ease; /* Suaviza el efecto de transformación */
-              }
-            }
-          
-            /* Estilos para pantallas de 320px o menos */
-            @media only screen and (max-width: 320px) {
-              .grid-container {
-                grid-template-columns: repeat(1, 1fr); /* Cambia a dos columnas para pantallas pequeñas */
-              }
-            .grid-item {
-                padding: 10px;
-                text-align: center;
-                border: 4px solid transparent; /* Establece un ancho y estilo de borde inicial. */
-                border-radius: 6px; /* Esquinas redondeadas */
-                transition: transform 0.3s ease; /* Suaviza el efecto de transformación */
-              }}
-          </style> -->
-
-        <!-- 
-        <style>
-            .grid-container {
-              display: grid;
-              grid-template-columns: repeat(6, minmax(0, 1fr)); /* Seis columnas en espacio disponible */
-              gap: 10px; /* Espacio entre los botones */
-              padding: 10px;
-            }
-            .grid-item {
-              padding: 20px;
-              text-align: center;
-            }
-            .button-img {
-              width: 100%;
-              height: auto;
-              aspect-ratio: 300 / 90; /* Mantiene la relación de aspecto */
-              border: 4px solid #ccc; 
-              border-radius: 10px; 
-              box-shadow: 4px 4px 8px rgba(0,0,0,0.2); 
-            }
-            
-            @media only screen and (max-width: 600px) {
-              .grid-container {
-                grid-template-columns: repeat(2, 1fr); /* Dos columnas para pantallas pequeñas */
-              }
-              .button-img {
-                max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
-              }
-            }-->
-            
       
 <style>
     .menu-container {
@@ -280,28 +153,7 @@
 
 <body>
 
-    <!-- Menú de navegación
-    <div class="menu-container">
-        <div class="menu-item" data-target="#uxui">Diseño UX/UI</div>
-        <div class="menu-item" data-target="#databases">Bases de Datos</div>
-        <div class="menu-item" data-target="#java">Java</div>
-        <div class="menu-item" data-target="#Python">Python</a></div>
-        <div class="menu-item" data-target="#CSS">CSS</a></div>
-        <div class="menu-item" data-target="#HTML">HTML</a></div> -->
-        <!-- Agrega más botones según necesites -->
-    <!-- </div> -->
     
-    
-    <!-- Secciones de contenido -->
-<!-- <div id="uxui" class="content-section" style="display: none;">Contenido de Diseño UX/UI</div>
-<div id="databases" class="content-section" style="display: none;">Contenido de Bases de Datos</div>
-<div id="java" class="content-section" style="display: none;">Contenido de Java</div>
-<div id="Python" class="content-section" style="display: none;">Contenido de Python</div>
-<div id="CSS" class="content-section" style="display: none;">Contenido de CSS</div>
-<div id="HTML" class="content-section" style="display: none;">Contenido de HTML</div> -->
-
-
-<!-- Agrega más secciones según corresponda -->
      
 
 <div class="grid-container">
@@ -309,261 +161,261 @@
 
   <div class="grid-item">
     <a href="https://www.figma.com" target="_blank">
-      <img src="./img/Figma.png" alt="Figma" class="button-img">
+      <img src="https://ankhmythos.github.io/Botones/img/Figma.png" alt="Figma" class="button-img">
     </a>
   </div>
 
   <div class="grid-item">
     <a href="https://www.optimalworkshop.com" target="_blank">
-      <img src="./img/OptimalWorkshop.png" alt="Optimal Workshop" class="button-img">
+      <img src="https://ankhmythos.github.io/Botones/img/OptimalWorkshop.png" alt="Optimal Workshop" class="button-img">
     </a>
   </div>
 
   <div class="grid-item">
     <a href="https://www.photopea.com" target="_blank">
-      <img src="./img/Photopea.png" alt="Figma" class="button-img">
+      <img src="https://ankhmythos.github.io/Botones/img/Photopea.png" alt="Figma" class="button-img">
     </a>
   </div>
 
   <div class="grid-item">
     <a href="https://www.gimp.org" target="_blank">
-      <img src="./img/gimp.png" alt="Figma" class="button-img">
+      <img src="https://ankhmythos.github.io/Botones/img/gimp.png" alt="Figma" class="button-img">
     </a>
   </div>
 
   <div class="grid-item">
     <a href="https://this-person-does-not-exist.com/es" target="_blank">
-      <img src="./img/thispersondoesnotexist.png" alt="Figma" class="button-img">
+      <img src="https://ankhmythos.github.io/Botones/img/thispersondoesnotexist.png" alt="Figma" class="button-img">
     </a>
   </div>
 
   <div class="grid-item">
     <a href="https://whimsical.com" target="_blank">
-        <img src="./img/whimsical.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/whimsical.png" alt="Figma" class="button-img">
     </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.smartdraw.com" target="_blank">
-            <img src="./img/smartdraw1.png" alt="Figma" class="button-img">
+            <img src="https://ankhmythos.github.io/Botones/img/smartdraw1.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://new.express.adobe.com" target="_blank">
-        <img src="./img/adobeexpres.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/adobeexpres.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://miro.com/es" target="_blank">
-        <img src="./img/miro2.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/miro2.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.freepik.es/" target="_blank">
-        <img src="./img/freepik.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/freepik.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.freepikcompany.com/es/freepik" target="_blank">
-        <img src="./img/freepekcompany.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/freepekcompany.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://moqups.com/es/" target="_blank">
-        <img src="./img/moqups.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/moqups.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://unsplash.com/es" target="_blank">
-        <img src="./img/unsplash.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/unsplash.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://pixabay.com/es" target="_blank">
-        <img src="./img/pixabay.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/pixabay.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://photoraster.com/" target="_blank">
-        <img src="./img/photoraster.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/photoraster.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.canva.com/" target="_blank">
-        <img src="./img/canva.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/canva.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://pixlr.com/es/" target="_blank">
-        <img src="./img/pixlr.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/pixlr.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://create.vista.com/es/" target="_blank">
-        <img src="./img/vistacreate.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/vistacreate.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://krita.org/es/" target="_blank">
-        <img src="./img/krita.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/krita.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.behance.net/" target="_blank">
-        <img src="./img/behance.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/behance.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.storyboardthat.com/es" target="_blank">
-        <img src="./img/storyboard.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/storyboard.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.clipstudio.net/es/" target="_blank">
-        <img src="./img/clipstudio.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/clipstudio.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://undraw.co/illustrations" target="_blank">
-        <img src="./img/undraw.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/undraw.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://boxicons.com/" target="_blank">
-        <img src="./img/boxicona.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/boxicona.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.accenture.com/ar-es" target="_blank">
-        <img src="./img/accenture.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/accenture.png" alt="Figma" class="button-img">
         </a>
     </div>
  
     <div class="grid-item">
         <a href="https://padlet.com/" target="_blank">
-        <img src="./img/padlet.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/padlet.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://web.archive.org/" target="_blank">
-        <img src="./img/internetarchive.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/internetarchive.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.manypixels.co/" target="_blank">
-        <img src="./img/manipixels.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/manipixels.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://validator.w3.org/" target="_blank">
-        <img src="./img/w3c.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/w3c.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     
     <div class="grid-item">
         <a href="https://app.netlify.com/" target="_blank">
-        <img src="./img/netlify.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/netlify.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://github.com/" target="_blank">
-        <img src="./img/github.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/github.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://git-scm.com/" target="_blank">
-        <img src="./img/git.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/git.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://htmlcheatsheet.com/" target="_blank">
-        <img src="./img/htmlCheatShett.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/htmlCheatShett.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://codepen.io/" target="_blank">
-        <img src="./img/codepen.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/codepen.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://es.123rf.com/" target="_blank">
-        <img src="./img/123rf-.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/123rf-.png" alt="Figma" class="button-img">
         </a>
     </div>
 
 
     <div class="grid-item">
         <a href="https://es.123rf.com/" target="_blank">
-        <img src="./img/123rf.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/123rf.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.ionos.es/tools" target="_blank">
-        <img src="./img/ionos.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/ionos.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://developer.mozilla.org/" target="_blank">
-        <img src="./img/mdn.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/mdn.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://html-css-js.com/" target="_blank">
-        <img src="./img/html.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/html.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.tutorialspoint.com/" target="_blank">
-        <img src="./img/tutorialspoint.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/tutorialspoint.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://spring.io/" target="_blank">
-        <img src="./img/spring.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/spring.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.python.org/" target="_blank">
-        <img src="./img/python.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/python.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.postman.com/" target="_blank">
-        <img src="./img/postman.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/postman.png" alt="Figma" class="button-img">
         </a>
     </div>
 
@@ -571,195 +423,195 @@
 
     <div class="grid-item">
         <a href="https://www.mclibre.org/" target="_blank">
-        <img src="./img/mclibre.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/mclibre.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://medium.com/" target="_blank">
-        <img src="./img/medium.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/medium.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://css-tricks.com/" target="_blank">
-        <img src="./img/css-tricks.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/css-tricks.png" alt="Figma" class="button-img">
         </a>
     </div>
 
 
     <div class="grid-item">
         <a href="https://www.color-hex.com/" target="_blank">
-        <img src="./img/color-hex.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/color-hex.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://getbootstrap.com/" target="_blank">
-        <img src="./img/bootstrap.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/bootstrap.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://icomoon.io/" target="_blank">
-        <img src="./img/icomoon.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/icomoon.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.db-fiddle.com/" target="_blank">
-        <img src="./img/dbfoddle.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/dbfoddle.png" alt="Figma" class="button-img">
         </a>
     </div>
 
 
     <div class="grid-item">
         <a href="https://www.mysql.com/products/workbench/" target="_blank">
-        <img src="./img/mysql.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/mysql.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://sqlitebrowser.org/" target="_blank">
-        <img src="./img/sqlite1.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/sqlite1.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://code.visualstudio.com/" target="_blank">
-        <img src="./img/visualestudiocode.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/visualestudiocode.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://vscode.dev/" target="_blank">
-        <img src="./img/vscode.png" alt="Visual Studio Code Dev - Online" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/vscode.png" alt="Visual Studio Code Dev - Online" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://h2database.com/html/main.html" target="_blank">
-        <img src="./img/h2.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/h2.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://huggingface.co/" target="_blank">
-        <img src="./img/huggingface.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/huggingface.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://poe.com/" target="_blank">
-        <img src="./img/poe.png" alt="Diferentes IA" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/poe.png" alt="Diferentes IA" class="button-img">
         </a>
     </div> 
 
     <div class="grid-item">
         <a href="https://www.apachefriends.org/es/index.html" target="_blank">
-        <img src="./img/xampp.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/xampp.png" alt="Figma" class="button-img">
         </a>
     </div>
       
     <div class="grid-item">
         <a href="https://www.jetbrains.com/help/idea/relational-databases.html" target="_blank">
-        <img src="./img/intellijidea.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/intellijidea.png" alt="Figma" class="button-img">
         </a>
     </div>
    
     <div class="grid-item">
         <a href="https://recursosuxwritingargentina.notion.site/Recursos-UX-37b7abf6f070494a8c0467d50fe9da9e" target="_blank">
-        <img src="./img/recursos ux.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/recursos ux.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://fontawesome.com/" target="_blank">
-        <img src="./img/fontawesome.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/fontawesome.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.uxuiopen.com/" target="_blank">
-        <img src="./img/uxuiopen.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/uxuiopen.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://convertio.co/es/" target="_blank">
-        <img src="./img/convettio.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/convettio.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://convertico.com/es/" target="_blank">
-        <img src="./img/convertico.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/convertico.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.aconvert.com/" target="_blank">
-        <img src="./img/aconvert.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/aconvert.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://fontawesome.com/" target="_blank">
-        <img src="./img/fontawesome.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/fontawesome.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://m3.material.io/" target="_blank">
-        <img src="./img/m3materialio.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/m3materialio.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.remove.bg/es/" target="_blank">
-        <img src="./img/removebg.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/removebg.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.designify.com/" target="_blank">
-        <img src="./img/designify.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/designify.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.autodraw.com/" target="_blank">
-        <img src="./img/autodraw.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/autodraw.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.istockphoto.com/es" target="_blank">
-        <img src="./img/istock.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/istock.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://www.silocreativo.com/" target="_blank">
-        <img src="./img/silocreativo.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/silocreativo.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://chat.openai.com/" target="_blank">
-        <img src="./img/chatgpt5.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/chatgpt5.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://uigradients.com/" target="_blank">
-        <img src="./img/uigradients.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/uigradients.png" alt="Figma" class="button-img">
         </a>
     </div>
 
     <div class="grid-item">
         <a href="https://developer.android.com/" target="_blank">
-        <img src="./img/developers.png" alt="Figma" class="button-img">
+        <img src="https://ankhmythos.github.io/Botones/img/developers.png" alt="Figma" class="button-img">
         </a>
     </div>
      <!-- ... otros botones ... -->
